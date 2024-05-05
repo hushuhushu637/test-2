@@ -1,0 +1,219 @@
+.login-page_164-25 {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background: #f5f5f5;
+  width: 1415px;
+  height: 1012px;
+}
+.rectangle-5_164-26 {
+  top: 189px;
+  left: 811px;
+  position: absolute;
+  display: flex;
+  display: flex;
+}
+
+.rectangle-6_164-27 {
+  top: 195px;
+  left: 26px;
+  position: absolute;
+  display: flex;
+  display: flex;
+}
+
+.rectangle-11_164-28 {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  display: flex;
+  display: flex;
+}
+
+.ellipse-1_164-29 {
+  top: 319px;
+  left: 59px;
+  position: absolute;
+  display: flex;
+  display: flex;
+}
+
+.text-login_164-30 {
+  top: 63px;
+  left: 861px;
+  position: absolute;
+  display: flex;
+  color: #434343;
+  font-size: 50px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: left;
+  width: 554px;
+  height: 89px;
+}
+
+.text-scholar---pro--connect-llp_164-31 {
+  top: 81px;
+  left: 59px;
+  position: absolute;
+  display: flex;
+  font-size: 45px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: left;
+  width: 374px;
+  height: 84px;
+}
+
+.frame-9_164-32 {
+  top: 248px;
+  left: 542px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  width: 819px;
+  height: 72px;
+  box-shadow: 0px 4px 4px 0px #0000003f;
+}
+.frame-2_164-33 {
+  padding: 10px;
+  top: -23px;
+  left: 29px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  width: 240px;
+  
+}
+.text-username---e-mail_164-34 {
+  color: #000000;
+  font-size: 20px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  width: 202px;
+  height: 27px;
+}
+
+.frame-4_164-35 {
+  top: 422px;
+  left: 542px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  width: 819px;
+  height: 72px;
+  box-shadow: 0px 4px 4px 0px #0000003f;
+}
+.frame-2_164-36 {
+  padding: 10px;
+  top: -23px;
+  left: 29px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  box-shadow: 0px 4px 4px 0px #0000003f;
+}
+.text-password_164-37 {
+  color: #000000;
+  font-size: 22px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.text-don-t-have-an-account---register_164-38 {
+  top: 719px;
+  left: 750px;
+  position: absolute;
+  display: flex;
+  color: #000000;
+  font-size: 22px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  width: 373px;
+  height: 64px;
+}
+
+.text-forgot-password--_164-39 {
+  top: 517px;
+  left: 1138px;
+  position: absolute;
+  display: flex;
+  color: #000000;
+  font-size: 22px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  text-wrap: nowrap;
+  width: 207px;
+  height: 27px;
+}
+
+.frame-8_164-40 {
+  top: 595px;
+  left: 748px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 18px;
+  border-color: #7f7b7b;
+  border-style: solid;
+  border-width: 1px;
+  background: #2b456c;
+  width: 373px;
+  height: 73px;
+  box-shadow: 0px 4px 4px 0px #0000003f;
+}
+.text-sign-in_164-41 {
+  top: 15px;
+  left: -17px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Montserrat;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  width: 402px;
+  height: 43px;
+}
