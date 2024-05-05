@@ -6,7 +6,7 @@ import { ContactusPageComponent } from './contactus-page/contactus-page.componen
 import { LoginPageComponent } from './login-page/login-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
 export const routes: Routes = [
-    { path: '', redirectTo: '/about', pathMatch: 'full' }, // Redirect to about page
+    { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirect to home page
     { path: 'about', component: AboutUsPageComponent },
     { path: 'contact', component: ContactusPageComponent },
     { path: 'home', component: HomePageComponent },
