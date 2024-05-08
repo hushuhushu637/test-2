@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,6 +9,9 @@ import { Router } from '@angular/router';
   styleUrl: './home-page.component.css'
 })
 export class HomePageComponent {
+
+   @Input() tagline: string =
+  "Transforming Education: Your Personalized Learning Partner";
   constructor(private router: Router) { }
 
   goToContactusPage() { 
@@ -20,6 +23,16 @@ export class HomePageComponent {
 
   goToRegisterPage() {
     this.router.navigate(['/register']);
+  }
+  navigateToGmail(): void {
+    window.open('mailto:contact@scholarproconnect.com', '_blank');
+  }
+
+  navigateToLinkedIn(): void {
+    this.router.navigate(['https://www.linkedin.com/company/scholar-pro-connect-llp/']);
+  }
+  navigateToInstagram(): void {
+    window.open('https://www.instagram.com/scholar_pro_connect/', '_blank');
   }
 }
 
