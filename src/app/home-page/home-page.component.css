@@ -5,6 +5,9 @@
   background: #ffffff;
   width: 1415px;
   height: 1012px;
+  display: flex;
+  justify-content: center;
+  background-color:#EDF8FF;
 }
 .pexels-photo-by-pixabay_15-30 {
   top: 195px;
@@ -12,6 +15,12 @@
   position: absolute;
   display: flex;
   display: flex;
+  width: 1300px;
+  height:550px;
+  background-image: url('main..jpeg');
+  border-radius: 30px;
+  /* Adjust the value to change the roundness */
+  overflow: hidden;
 }
 
 .frame-9_193-13 {
@@ -156,7 +165,7 @@
   font-size: large;
 }
 
-.text-transforming-education--your-personalized-learning-partner_219-118 {
+.personalized-learning {
   top: 85px;
   left: 33px;
   position: absolute;
@@ -176,12 +185,12 @@
   font-size: large;
 }
 
-.text-empowering-your-educational-journey--from-college-planning-to-career-landing--providing-personalised-learning-solutions-_219-119 {
+.educational-journey {
   top: 304px;
   left: 51px;
   position: absolute;
   display: flex;
-  color: #ffffff;
+  color: #080808d8;
   letter-spacing: 0%;
   text-decoration: none;
   text-align: left;
@@ -203,21 +212,28 @@
 }
 
 .text-get-started_239-109 {
-  top: 617px;
-  left: 109px;
+  
   position: absolute;
   display: flex;
   color: #ffffff;
   letter-spacing: 0%;
   text-decoration: none;
-
   text-align: center;
   text-wrap: nowrap;
-  width: 146px;
-  height: 30px;
+  width: 180px;
+  height: 65px;
   font-weight: bold;
   font-family: 'Montserrat';
+  background-color: #000000;
+  border-radius: 30px;
+  top: 600px;
+  left: 109px;
+  color: #ffffff;
   font-size: 30px;
+
+}
+.buty{
+  text-align: center;
 }
 /* 2nd page */
 .home-page-2_212-57 {
@@ -225,9 +241,10 @@
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 60px;
-  background: #ffffff;
+  background:#D9D9D9;
   width: 1415px;
   height: 1035px;
+
 }
 .rectangle-10_212-100 {
   top: 0px;
@@ -237,7 +254,7 @@
   display: flex;
 }
 
-.text-expert-college-admission-support--get-personalized-guidance-and-support-to-navigate-the-college-admission-process-successfully-with-scholar-pro-connect-llp-_211-15 {
+.short-expert-admission-support {
   top: 44px;
   left: 48px;
   position: absolute;
@@ -249,7 +266,7 @@
   text-wrap: wrap;
   width: 1033px;
   height: 180px;
-  font-size:35px;
+  font-size: 35px;
 }
 
 .rectangle-14_212-101 {
@@ -276,7 +293,7 @@
   display: flex;
 }
 
-.text-pre-admissions-discover-top-colleges--get-personalized-guidance-for-selection--compare-options--access-tutoring--aid-with-applications--and-receive-financial-aid-and-scholarship-advice--explore-career-paths--_212-104 {
+.pre-admissions-text {
   top: 713px;
   left: 37px;
   position: absolute;
@@ -291,7 +308,7 @@
   font-size:30px;
 }
 
-.text-in-college-support-navigate-college-life--secure-internships--access-academic-and-professional-support--engage-in-leadership-and-mentorship-programs-_212-107 {
+.college-support-text {
   top: 724px;
   left: 499px;
   position: absolute;
@@ -306,7 +323,7 @@
   font-size:30px;
 }
 
-.text-post-college-get-job-assistance-at-various-levels--receive-job-search-strategies--access-certification-aid--and-continue-education-_212-111 {
+.post-college-text {
   top: 720px;
   left: 961px;
   position: absolute;
@@ -320,13 +337,14 @@
   height: 231px;
   font-size:30px;
 }
+
 /* 3rd page*/
 .about_211-16 {
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 60px;
-  background: #ffffff;
+  background:#D9D9D9;
   width: 1440px;
   height: 1026px;
 }
@@ -336,22 +354,34 @@
   position: absolute;
   display: flex;
   display: flex;
+  border-radius: 50%; /* Make the element circular */
+  width: 450px; /* Set width of the circular element */
+  height: 450px;
 }
 
 .rectangle-5_211-18 {
-  top: 189px;
-  left: 811px;
+  top: 350px;
+  right: 811px;
   position: absolute;
   display: flex;
   display: flex;
+  border-radius: 50%; /* Make the element circular */
+  width: 500px; /* Set width of the circular element */
+  height: 500px;
 }
 
 .rectangle-8_211-21 {
-  top: -29px;
-  left: 0px;
+  top: 15px;
+  left: 1135px;
   position: absolute;
   display: flex;
   display: flex;
+  border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    
+
+  
 }
 
 .frame-5_193-7 {
@@ -365,11 +395,12 @@
   height: 418px;
 }
 .pexels-photo-by-andrea-piacquadio_15-18 {
-  top: 3px;
-  left: 875px;
+  top:450px;
+  left: 1135px;
   position: absolute;
   display: flex;
   display: flex;
+
 }
 
 .text-our-beliefs_15-23 {
@@ -389,7 +420,7 @@
   height: 61px;
 }
 
-.text-we-at-spcl-believe-in-the-special-journey-of-every-student--your-journey--tha-s-why-we-provide-handholding-support-throughout--empowering-you-to-reach-your-full-potential-_15-24 {
+.special-journey-support {
   top: 161px;
   left: 559px;
   position: absolute;
@@ -404,6 +435,7 @@
   height: 148px;
 }
 
+
 .frame-7_193-11 {
   top: 17px;
   left: 0px;
@@ -414,7 +446,7 @@
   width: 1440px;
   height: 278px;
 }
-.text-being-aware-of-difficulties-a-student-faces-throughout-his-her-academic-journey--we-have-created-a-platform-to-provide-complete-package-from-pre-to-post-college-journey-to-get-you-closer-to-your-desired-career-_15-22 {
+.academic-journey-support {
   top: 87px;
   left: 38px;
   position: absolute;
@@ -441,7 +473,7 @@
 }
 .ellipse-3_16-5 {
   top: 46px;
-  left: 61px;
+  left: 100px;
   position: absolute;
   display: flex;
   display: flex;
@@ -503,7 +535,7 @@
   height: 103px;
 }
 
-.text-creative-expertise-we-provide-extensive-consultancy-relating-to-college-admission-and-and-post-college-support-through-personalised-approach-and-technology-integration-_211-26 {
+.creative-expertise {
   top: 703px;
   left: 50px;
   position: absolute;
@@ -515,8 +547,9 @@
   text-wrap: wrap;
   width: 807px;
   height: 266px;
-  font-size:30px;
+  font-size: 30px;
 }
+
 /* 4th page */
 .contact-us_16-14 {
   position: relative;
@@ -559,7 +592,7 @@
   height: 75px;
 }
 
-.text-scholar-pro-connect-has-been-instrumental-in-shaping-my-academic-and-professional-journey-their-personalized-approach-and-industry-insights-have-truly-made-a-difference-in-my-career-growth-_16-38 {
+.testimonial {
   top: 178px;
   left: 136px;
   position: absolute;
@@ -687,19 +720,24 @@
 }
 
 .linkedin_16-111 {
-  top: 23px;
-  left: 220px;
+  top: 100px;
+  left: 100px;
   position: absolute;
   display: flex;
   display: flex;
+  color:#3238c7;
+  height:60px;
+  width:60px;
 }
 
 .group_212-114 {
-  top: 23px;
+  top: 100px;
   left: 125px;
   position: absolute;
   display: flex;
   display: flex;
+  height:60px;
+  width:60px;
 }
 .vector_212-115 {
   display: flex;
@@ -724,10 +762,13 @@
   border-width: 1px;
   width: 324px;
   height: 72px;
+  background-color: #9196ff;;
+  border-radius: 30px;
+  text-align: center;
 }
 .text-schedule-consultation_47-9 {
   top: 17px;
-  left: 12px;
+  left: 20px;
   position: absolute;
   display: flex;
   color: #ffffff;
@@ -738,7 +779,7 @@
   font-weight: 700;
   text-align: center;
   width: 300px;
-  height: 38px;
+  height: 300px;
 }
 .contact-us_16-14 {
   position: relative;
@@ -748,6 +789,16 @@
   background: #eef9ff;
   width: 1440px;
   height: 1026px;
+}
+.gmail_276-6 {
+  display: flex;
+  top: 855px;
+  left: 650px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  height: 60px;
+  width: 60px;
 }
 .rectangle-8_16-20 {
   top: -29px;
@@ -781,7 +832,7 @@
   height: 75px;
 }
 
-.text-scholar-pro-connect-has-been-instrumental-in-shaping-my-academic-and-professional-journey-their-personalized-approach-and-industry-insights-have-truly-made-a-difference-in-my-career-growth-_16-38 {
+.text-16-38 {
   top: 178px;
   left: 136px;
   position: absolute;
@@ -821,6 +872,11 @@
   display: flex;
   width: 774px;
   height: 741px;
+}
+.instagram_276-5 {
+  display: flex;
+  top: 855px;
+  left: 650px;
 }
 .frame-1_193-2 {
   position: relative;
@@ -909,8 +965,8 @@
 }
 
 .group_212-114 {
-  top: 23px;
-  left: 125px;
+  top:885px;
+  left: 850px;
   position: absolute;
   display: flex;
   display: flex;
