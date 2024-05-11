@@ -54,7 +54,7 @@
   display: flex;
 }
 
-.text-your-questions--our-solutions--contact-us-today-for-personalized-assistance-_1-8 {
+.text-1-8 {
   top: 60px;
   left: 463px;
   position: absolute;
@@ -366,7 +366,7 @@
   box-sizing: border-box;
   width: 802px;
 }
-.text-type-your-query-here_1-101 {
+.text-1-101 {
   color: #6f6b6b;
   font-size: 20px;
   font-family: Montserrat;
@@ -375,4 +375,48 @@
   font-weight: 500;
   text-align: left;
   text-wrap: nowrap;
+}
+
+/* Existing CSS styles remain unchanged */
+
+/* Modify CSS for clickable input fields */
+.frame-2_1-11,
+.frame-2_1-14,
+.frame-2_1-60 {
+    cursor: text; /* Change cursor to text cursor when hovering over input fields */
+}
+
+/* Style the input fields */
+.text-xyz_19-3,
+.text-xyz_19-6,
+.text-xyz_19-8 {
+    border: none; /* Remove default input border */
+    outline: none; /* Remove default input focus outline */
+    width: 100%; /* Make input fields fill their parent container */
+    height: 100%; /* Make input fields fill their parent container */
+    font-size: 20px; /* Adjust font size */
+    padding: 0 10px; /* Add padding for better appearance */
+    background: transparent; /* Make input background transparent */
+}
+
+/* Style placeholder text */
+.text-xyz_19-3::placeholder,
+.text-xyz_19-6::placeholder,
+.text-xyz_19-8::placeholder {
+    color: #dad9d9; /* Set placeholder text color */
+}
+
+.frame-14_19-9 {
+  cursor: text; /* Change cursor to text cursor when hovering over the input field */
+}
+
+/* Style the input field */
+.text-1-101 {
+  border: none; /* Remove default input border */
+  outline: none; /* Remove default input focus outline */
+  width: 100%; /* Make input field fill its parent container */
+  font-size: 20px; /* Adjust font size */
+  padding: 5px 10px; /* Add padding for better appearance */
+  background: transparent; /* Make input background transparent */
+  color: #6f6b6b; /* Set input text color */
 }
