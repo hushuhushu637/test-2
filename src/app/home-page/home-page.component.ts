@@ -29,7 +29,7 @@ export class HomePageComponent {
   }
 
   navigateToLinkedIn(): void {
-    this.router.navigate(['https://www.linkedin.com/company/scholar-pro-connect-llp/']);
+    window.location.href = 'https://www.linkedin.com/company/scholar-pro-connect-llp/';
   }
   navigateToInstagram(): void {
     window.open('https://www.instagram.com/scholar_pro_connect/', '_blank');
